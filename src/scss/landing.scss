@@ -1,0 +1,116 @@
+.img-lexco {
+    background-image: url('https://lexcojuridico.com/wp-content/uploads/2023/09/portada1-min-scaled.jpg');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .img-lexco {
+        background-image: url(../../assets/static/images/portada1-movil.jpg);
+        color: black;
+
+    }
+}
+
+.img-lexco2 {
+    background-image: url('https://lexcojuridico.com/wp-content/uploads/2023/09/grupo3-min-scaled.jpg');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .img-lexco2 {
+        background-image: url('https://lexcojuridico.com/wp-content/uploads/2023/09/grupo3-min-scaled.jpg');
+        background-color: #e2e3e5;
+    }
+}
+
+@media (min-width: 769px) {
+    .more-py {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .movil {
+        text-align: center;
+
+
+    }
+
+}
+
+.img-lexco3 {
+    background-image: url('https://lexcojuridico.com/wp-content/uploads/2023/09/grupo1-min-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+@media (max-width: 768px) {
+    .img-lexco3 {
+        background-image: url('https://lexcojuridico.com/wp-content/uploads/2023/09/grupo1-min-scaled.jpg');
+        background-size: cover;
+        height: 50vh;
+
+
+    }
+}
+
+
+.btn-asesoria {
+    margin-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #B48B1B;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .btn-asesoria {
+        margin-bottom: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: white;
+        background-color: #B48B1B;
+        border: none;
+
+    }
+}
+
+.sm-gold {
+    color: white;
+
+}
+
+
+@media (max-width: 768px) {
+    .sm-gold {
+        color: #B48B1B
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-movil {
+        height: 20px;
+
+    }
+}
+
+/* @media (max-width: 768px) {
+  .m-movil {
+    margin-left: 15px;
+    
+  }
+} */

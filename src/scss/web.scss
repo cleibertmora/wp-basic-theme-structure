@@ -1,0 +1,199 @@
+/* Estilos de politica de privacidad */
+
+.policy {
+    margin: 60px 60px;
+    /* Margen de 3cm en todo el cuerpo del documento */
+    font-family: "Times New Roman", Times, serif;
+    /* Tipo de letra Times New Roman o similar */
+    font-size: 24px;
+    /* Tamaño de letra 12 */
+    line-height: 1;
+    /* Interlineado sin espacios */
+    text-align: justify;
+    /* Contenido justificado */
+    line-height: 1.5;
+}
+
+.policy h1,
+.policy h2 {
+    font-weight: bold;
+
+}
+
+.policy h1,
+.policy h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Estilos para el blog */
+
+.blog_template {
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.blog-excep {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.blog_template h1 {
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-size: 60px;
+
+}
+
+.blog_template h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.blog_template p {
+    padding-bottom: 20px;
+}
+
+.blog_template img {
+    padding-bottom: 30px;
+    max-width: 100%;
+
+}
+
+@media (max-width: 768px) {
+
+    /* Media query para pantallas más pequeñas, ajusta el valor según sea necesario */
+    .blog_template {
+        /* Reducir el margen en pantallas más pequeñas */
+        /* Reducir el tamaño de fuente en pantallas más pequeñas */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.blog_template ol {
+    padding-left: 70px;
+}
+
+.blog_template li {
+    padding-bottom: 20px;
+}
+
+/* Para las tables de Blog  */
+
+/* Estilo de la tabla */
+.blog_template table {
+    border: 2px solid;
+
+}
+
+/* Estilo de las celdas */
+.blog_template td,
+th {
+    border: 2px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Estilo de las celdas de encabezado */
+.blog_template th {
+    background-color: #d8d5d5;
+    /* Color de fondo para el encabezado */
+    text-align: center;
+    /* Centrar el texto en las celdas de encabezado */
+    font-weight: bold;
+    /* Texto en negrita para el encabezado */
+}
+
+/* Estilo de las celdas de datos */
+.blog_template td {
+    text-align: center;
+    /* Centrar el texto en las celdas de datos */
+}
+
+/* Estilo de las filas impares (opcional) */
+.blog_template tr:nth-child(odd) {
+    background-color: #ebe6e6;
+    /* Color de fondo para filas impares */
+}
+
+/* Estilos para boton de ws  */
+
+.rebote {
+
+    animation: rebote 1s;
+    animation-delay: 4s;
+
+}
+
+/* Define los keyframes de la animación */
+@keyframes rebote {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Estilos que no me acuerdo para que son  */
+
+.banner-cia {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.header-image {
+    max-width: 90%;
+    height: auto;
+}
+
+.custom-nav-hover:hover {
+    color: #B48B1B !important;
+
+}
+
+.wpcf7-not-valid-tip {
+    font-size: 16px;
+}
+
+.wpcf7-spinner {
+    position: absolute;
+}
+
+.pagination {
+    justify-content: center;
+
+    .page-numbers {
+        @extend .page-link;
+
+        &.current {
+            background-color: #ccc;
+        }
+    }
+}
