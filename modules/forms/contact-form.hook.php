@@ -39,7 +39,7 @@ class LexcoThemeContactFormHook
         ];
 
         $response = wp_remote_post(
-            'https://hooks.zapier.com/hooks/catch/13647921/bvjbq8n',
+            '%%%URL_FOR_WEBHOOK%%%%',
             array(
                 'method' => 'POST',
                 'body' => wp_json_encode($body),
